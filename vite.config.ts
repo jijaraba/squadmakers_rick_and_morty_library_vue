@@ -10,6 +10,7 @@ export default defineConfig({
             entry: resolve(__dirname, 'src/index.ts'),
             name: 'squadmakers-components',
             fileName: 'squadmakers-components',
+            formats: ['es', 'umd']
         },
         rollupOptions: {
             external: ['vue'],

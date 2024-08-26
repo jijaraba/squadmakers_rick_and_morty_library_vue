@@ -2,12 +2,12 @@
   "name": "squadmakers-components",
   "version": "1.0.0",
   "type": "module",
-  "main": "./dist/squadmakers-components.umd.js",
-  "module": "./dist/squadmakers-components.esm.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "dist/squadmakers-components.umd.cjs",
+  "module": "dist/squadmakers-components.js",
+  "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/squadmakers-components.esm.js",
+      "import": "./dist/squadmakers-components.js",
       "require": "./dist/squadmakers-components.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
