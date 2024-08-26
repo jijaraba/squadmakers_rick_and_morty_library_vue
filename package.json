@@ -1,0 +1,29 @@
+{
+  "name": "squadmakers-components",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/squadmakers-components.cjs",
+  "module": "./dist/squadmakers-components.js",
+  "exports": {
+    ".": {
+      "import": "./dist/squadmakers-components.js",
+      "require": "./dist/squadmakers-components.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "sass-embedded": "^1.77.8",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.0.29"
+  }
+}
