@@ -2,7 +2,7 @@
   "name": "squadmakers-components",
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/squadmakers-components.cjs",
+  "main": "./dist/squadmakers-components.umd.cjs",
   "module": "./dist/squadmakers-components.js",
   "exports": {
     ".": {
